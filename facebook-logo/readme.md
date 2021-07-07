@@ -1,4 +1,4 @@
-# Facebook Logo Made With Pure Html5 & CSS3
+# Facebook Logo Made With Pure CSS3
 
 ## Image
 
