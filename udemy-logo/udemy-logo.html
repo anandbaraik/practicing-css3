@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Udemy Logo</title>
+</head>
+<style>
+    .container{
+        min-height: 100vh;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .wrapper{
+        height: 150px;
+        width: 150px;
+        display: grid;
+        grid-row-gap: 40px;
+        grid-template-columns: 1fr 1fr;
+    }
+    .u{
+        grid-column: span 2;
+        height: 80px;
+        width: 60px;
+        border: 20px solid rgba(0, 0, 0, 0.867);
+        border-top: none;
+        border-bottom-left-radius: 60%;
+        border-bottom-right-radius: 60%;
+    }
+    .line{
+        height: 30px;
+        background-color: #a435f0;
+        width: 30px;
+        position: relative;
+        transform-origin: top right;
+    }
+    .line_left{
+        width: 40px;
+        left: 12px;
+        transform: skew(-40deg) rotate(-40deg);
+    }
+    .line_right {
+        width: 37px;
+        right: 12px;
+        top: 24px;
+        transform: skew(40deg) rotate(40deg);
+    }
+</style>
+<body>
+    <div class="container">
+        <div class="wrapper">
+            <div class="line line_left"></div>
+            <div class="line line_right"></div>
+            <div class="u"></div>
+        </div>
+    </div>
+</body>
+</html>
